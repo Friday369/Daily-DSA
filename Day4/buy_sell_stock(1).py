@@ -1,6 +1,6 @@
 # BRUTE FORCE
 # Time: O(n²)  Space: O(1)
-def maxProfit_brute():
+def maxProfit():
     prices = [7, 1, 5, 3, 6, 4]
     max_profit = 0
     for i in range(len(prices)):
@@ -10,4 +10,4 @@ def maxProfit_brute():
 
     print(f"Brute Force Result: {max_profit}")
 
-maxProfit_brute()
+maxProfit()

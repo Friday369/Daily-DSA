@@ -2,7 +2,7 @@
 # Time: O(n! * n)  Space: O(n!)
 
 from itertools import permutations
-def nextPermutation_brute():
+def nextPermutation():
     nums = [1, 2, 3]
     all_perms = sorted(set(permutations(nums)))
     current = tuple(nums)
@@ -15,4 +15,4 @@ def nextPermutation_brute():
             break
     print(f"Brute Force Result: {result}")
 
-nextPermutation_brute()
+nextPermutation()

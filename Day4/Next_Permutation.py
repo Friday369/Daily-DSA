@@ -1,7 +1,7 @@
 # OPTIMAL
 # Time: O(n)  Space: O(1)
 
-def nextPermutation_optimal():
+def nextPermutation():
     nums = [1, 2, 3]
     n = len(nums)
     pivot = -1
@@ -20,4 +20,4 @@ def nextPermutation_optimal():
 
     nums[pivot + 1:] = reversed(nums[pivot + 1:])
     print(f"Optimal Result: {nums}")
-nextPermutation_optimal()
+nextPermutation()
